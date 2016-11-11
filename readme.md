@@ -1,3 +1,5 @@
+This is a project to learn the accounting.js library from Open Exchange Rates. Please see below for the original source.
+
 **accounting.js** is a tiny JavaScript library for number, money and currency parsing/formatting. It's lightweight, fully localisable, has no dependencies, and works great client-side or server-side. Use standalone or as a nodeJS/npm and AMD/requireJS module.
 
 Visit the plugin homepage for demos and documentation: **http://openexchangerates.github.io/accounting.js/**
@@ -26,9 +28,9 @@ Maintained by [Open Exchange Rates](https://openexchangerates.org "Free reliable
 **v0.3.2** - Fixed package.json dependencies (should be empty object)
 
 **v0.3.0**
-* Rewrote library structure similar to underscore.js for use as a nodeJS/npm and AMD module. Use `npm install accounting` and then `var accounting = require("accounting");` in your nodeJS scripts. 
+* Rewrote library structure similar to underscore.js for use as a nodeJS/npm and AMD module. Use `npm install accounting` and then `var accounting = require("accounting");` in your nodeJS scripts.
 * Also works with requireJS or any AMD module loader.
-* **unformat** now only attempts to parse the number if it's not already a valid number. 
+* **unformat** now only attempts to parse the number if it's not already a valid number.
 * `acounting.unformat` now also aliased as `acounting.parse`
 * Fixed an IE bug in the `defaults` method
 
